@@ -49,20 +49,22 @@ async function handSearch() {
   Rain.innerText = data1.clouds.all + "%" + " " + data1.weather[0].description;
   const setTemperature = Math.floor(data1.main.temp - 273.15);
   //
-  sun_day.innerText = Math.floor(data1.main.temp - 273.15) - 1;
-  blurs.innerText = Math.floor(data1.main.temp - 273.15) - 6;
-  sun_day2.innerText = Math.floor(data1.main.temp - 273.15) - 2;
-  blurs2.innerText = Math.floor(data1.main.temp - 273.15) - 5;
-  sun_day3.innerText = Math.floor(data1.main.temp - 273.15) - 1;
-  blurs3.innerText = Math.floor(data1.main.temp - 273.15) - 4;
-  sun_day4.innerText = Math.floor(data1.main.temp - 273.15) - 1;
-  blurs4.innerText = Math.floor(data1.main.temp - 273.15) - 3;
-  sun_day5.innerText = Math.floor(data1.main.temp - 273.15) - 1;
-  blurs5.innerText = Math.floor(data1.main.temp - 273.15) - 5;
-  sun_day6.innerText = Math.floor(data1.main.temp - 273.15) - 2;
-  blurs6.innerText = Math.floor(data1.main.temp - 273.15) - 5;
-  sun_day7.innerText = Math.floor(data1.main.temp - 273.15) - 3;
-  blurs7.innerText = Math.floor(data1.main.temp - 273.15) - 6;
+  const dataTemp = Math.floor(data1.main.temp - 273.15);
+
+  sun_day.innerText = dataTemp - 1;
+  blurs.innerText = dataTemp - 6;
+  sun_day2.innerText = dataTemp - 2;
+  blurs2.innerText = dataTemp - 5;
+  sun_day3.innerText = dataTemp - 1;
+  blurs3.innerText = dataTemp - 4;
+  sun_day4.innerText = dataTemp - 1;
+  blurs4.innerText = dataTemp - 3;
+  sun_day5.innerText = dataTemp - 1;
+  blurs5.innerText = dataTemp - 5;
+  sun_day6.innerText = dataTemp - 2;
+  blurs6.innerText = dataTemp - 5;
+  sun_day7.innerText = dataTemp - 3;
+  blurs7.innerText = dataTemp - 6;
   //
   spCloud.innerText = data1.wind.speed;
   vis.innerText = data1.visibility / 1000 - 2 + ".0";
