@@ -68,7 +68,7 @@ async function handSearch() {
   //
   spCloud.innerText = data1.wind.speed;
   vis.innerText = data1.visibility / 1000 - 2 + ".0";
-  //   sunrise.innerText = Math.floor(new Date().getTime() / 1000.0);
+  //
   air.innerText = data1.main.humidity;
   Info.innerText = Math.floor(data1.main.temp - 270.15) + "°C";
   const dataT = Math.floor(data1.main.temp - 270.15);
@@ -77,7 +77,7 @@ async function handSearch() {
   } else if (setTemperature >= 18) {
     imgDemo.src = "./image/sun/sun.gif";
   } else if (setTemperature < 18) {
-    imgDemo.src = "./image/sun/ngày.gif";
+    imgDemo.src = "./image/sun/ngay.gif";
   }
   if (dataT >= 27) {
     healthy.innerText = "Unhealthy";
