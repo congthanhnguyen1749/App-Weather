@@ -29,7 +29,7 @@ const vis = $(".visibilitys");
 const sunrise = $(".sunrise");
 async function handSearch() {
   const defaults = search.value.trim();
-  const url = `http://api.openweathermap.org/geo/1.0/direct?q=${
+  const url = `https://api.openweathermap.org/geo/1.0/direct?q=${
     defaults === "" ? "ha noi" : defaults
   }&limit=1&appid=114027820d9c3a3495fa09c176c70a78`;
   const data = await fetch(url)
