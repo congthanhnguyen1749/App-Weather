@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>App Weather</title>
+  </head>
+  <body>
+    <div class="app_weather">
+      <div class="app_weather-overview">
+        <div class="app_weather-overview-summary">
+          <div class="app_weather-overview-summary-search">
+            <div class="box-search">
+              <i class="icon-magnifier"></i>
+              <input placeholder="Search your places ..." type="text" />
+              <i class="icon-equalizer"></i>
+            </div>
+          </div>
+          <div class="app_weather-overview-summary-demo">
+            <img src="./image/sun/ngày.gif" alt="" class="img-demo" />
+            <div class="temperature">
+              <div class="temperature-title">
+                <div class="box-value">
+                  <span class="box-value-t">
+                    <pre style="font-size: 25px">SEARCH YOUR LOVE PLACES</pre>
+                  </span>
+                </div>
+                <h1>Monday,16:00</h1>
+              </div>
+              <div class="temperature-info">
+                <div class="cound">
+                  <img src="./image/cound/loading cound.gif" alt="" />
+                  <span>Mostly Cloudy</span>
+                </div>
+                <div class="rain">
+                  <img src="./image/cound/loading cound.gif" alt="" />
+                  <span>Rain -30%</span>
+                </div>
+                <div class="tem">
+                  <span class="city">Hà Nội</span>
+                  <span>, </span>
+                  <span class="country">Việt Nam</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="app_weather-details-content">
+        <div class="weather_week">
+          <div class="weather_week-option">
+            <h1>Today</h1>
+            <h2>Week</h2>
+          </div>
+          <div class="weather_week-avatar">
+            <span>°C</span>
+            <span>°F</span>
+          </div>
+        </div>
+        <div class="weather_info">
+          <div class="weather_info-day">
+            <h1>Sun</h1>
+            <img src="./image/weather-img/sun.png" alt="" />
+            <div class="context">
+              <span>28°</span>
+              <span>-</span>
+              <span class="blurs">22°</span>
+            </div>
+          </div>
+          <div class="weather_info-day">
+            <h1>Mon</h1>
+            <img src="./image/weather-img/sun-max.png" alt="" />
+            <div class="context2">
+              <span>24°</span>
+              <span>-</span>
+              <span class="blurs">18°</span>
+            </div>
+          </div>
+          <div class="weather_info-day">
+            <h1>Tue</h1>
+            <img src="./image/weather-img/rain-min.png" alt="" />
+            <div class="context3">
+              <span>23°</span>
+              <span>-</span>
+              <span class="blurs">19°</span>
+            </div>
+          </div>
+          <div class="weather_info-day">
+            <h1>Wed</h1>
+            <img src="./image/weather-img/rain-max.png" alt="" />
+            <div class="context4">
+              <span>22°</span>
+              <span>-</span>
+              <span class="blurs">18°</span>
+            </div>
+          </div>
+          <div class="weather_info-day">
+            <h1>Thu</h1>
+            <img src="./image/weather-img/wind-snow.png" alt="" />
+            <div class="context5">
+              <span>19°</span>
+              <span>-</span>
+              <span class="blurs">14°</span>
+            </div>
+          </div>
+          <div class="weather_info-day">
+            <h1>Fri</h1>
+            <img src="./image/weather-img/sun-cound.png" alt="" />
+            <div class="context6">
+              <span>26°</span>
+              <span>-</span>
+              <span class="blurs">21°</span>
+            </div>
+          </div>
+          <div class="weather_info-day">
+            <h1>Sat</h1>
+            <img src="./image/weather-img/rain-min.png" alt="" />
+            <div class="context7">
+              <span>25°</span>
+              <span>-</span>
+              <span class="blurs">22°</span>
+            </div>
+          </div>
+        </div>
+        <div class="weather_hightlights">
+          <div class="hightlights">
+            <span>Today's Highlights</span>
+          </div>
+          <div class="hightlights-option">
+            <div class="hightlights-option-tab">
+              <div class="status"><span>Wind Status</span></div>
+              <div class="info">
+                <h1 class="cloud-s">7.70</h1>
+                <span>Km/h</span>
+              </div>
+              <div class="local">
+                <i class="fas fa-car-on"></i>
+                <h1>WSW</h1>
+              </div>
+            </div>
+            <div class="hightlights-option-tab">
+              <div class="status"><span>Visibility</span></div>
+              <div class="info">
+                <h1 class="visibilitys">5.2</h1>
+                <span>Km</span>
+              </div>
+              <div class="local">
+                <i class="fas fa-eye"></i>
+                <h1>EYE</h1>
+              </div>
+            </div>
+            <div class="hightlights-option-tab">
+              <div class="status"><span>Sunrise</span></div>
+              <div class="info">
+                <h1 class="sunrise">6:35</h1>
+                <span>Am</span>
+              </div>
+              <div class="local">
+                <i class="fas fa-up-long"></i>
+
+                <h1>Time Wake up</h1>
+              </div>
+            </div>
+            <div class="hightlights-option-tab">
+              <div class="status"><span>Temp max</span></div>
+              <div class="info">
+                <h1 class="info-s">3</h1>
+              </div>
+              <div class="local">
+                <i class="fas fa-sun"></i>
+
+                <h1 class="healthy">Healthy</h1>
+              </div>
+            </div>
+            <div class="hightlights-option-tab">
+              <div class="status"><span>Air Quality</span></div>
+              <div class="info">
+                <h1 class="air">105</h1>
+                <span></span>
+              </div>
+              <div class="local">
+                <i class="fas fa-wind"></i>
+                <h1>Healthy</h1>
+              </div>
+            </div>
+            <div class="hightlights-option-tab">
+              <div class="status"><span>Sunset</span></div>
+              <div class="info">
+                <h1>5:42</h1>
+                <span>Pm</span>
+              </div>
+              <div class="local">
+                <i class="fas fa-down-long"></i>
+
+                <h1>Time Eat</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
