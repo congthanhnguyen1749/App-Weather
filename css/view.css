@@ -58,7 +58,7 @@ body {
       min-width: 320px;
       height: 90%; }
       .app_weather-overview-summary-search {
-        height: 70px;
+        height: 7vh;
         width: 100%;
         display: -webkit-box;
         display: -ms-flexbox;

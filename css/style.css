@@ -58,7 +58,7 @@ body {
       min-width: 320px;
       height: 90%; }
       .app_weather-overview-summary-search {
-        height: 70px;
+        height: 7vh;
         width: 100%;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -518,7 +518,239 @@ body {
     display: none; }
 
   .app_weather-overview {
-    width: 100%; } }
+    width: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    overflow: hidden; }
+    .app_weather-overview-summary {
+      min-width: 320px;
+      height: 90%; }
+      .app_weather-overview-summary-search {
+        height: 7vh;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .app_weather-overview-summary-search .box-search {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          margin-bottom: 37px;
+          margin-top: 17px; }
+          .app_weather-overview-summary-search .box-search i {
+            color: #373636;
+            font-size: 15px;
+            margin: 0 25px; }
+          .app_weather-overview-summary-search .box-search input {
+            width: 140px;
+            height: 40px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            font-weight: 100; }
+            .app_weather-overview-summary-search .box-search input::-webkit-input-placeholder {
+              font-weight: 100;
+              font-size: 12px;
+              text-align: center; }
+            .app_weather-overview-summary-search .box-search input:-ms-input-placeholder {
+              font-weight: 100;
+              font-size: 12px;
+              text-align: center; }
+            .app_weather-overview-summary-search .box-search input::-ms-input-placeholder {
+              font-weight: 100;
+              font-size: 12px;
+              text-align: center; }
+            .app_weather-overview-summary-search .box-search input::placeholder {
+              font-weight: 100;
+              font-size: 12px;
+              text-align: center; }
+      .app_weather-overview-summary-demo {
+        height: calc(100% - 7vh);
+        width: 100%; }
+        .app_weather-overview-summary-demo .img-demo {
+          min-width: 220px;
+          height: 130px;
+          -o-object-fit: cover;
+             object-fit: cover;
+          border-radius: 10px;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          -ms-border-radius: 10px;
+          -o-border-radius: 10px; }
+        .app_weather-overview-summary-demo .temperature {
+          height: calc(100% - 150px);
+          width: 100%; }
+          .app_weather-overview-summary-demo .temperature .temperature-title {
+            height: 40%;
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            border-bottom: 1px dashed #555555;
+            z-index: 10000;
+            padding-bottom: 30px; }
+            .app_weather-overview-summary-demo .temperature .temperature-title .box-value {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center; }
+              .app_weather-overview-summary-demo .temperature .temperature-title .box-value span {
+                font-weight: 100;
+                font-size: 50px; }
+              .app_weather-overview-summary-demo .temperature .temperature-title .box-value sup {
+                font-weight: 100;
+                font-size: 55px; }
+            .app_weather-overview-summary-demo .temperature .temperature-title h1 {
+              font-weight: 300;
+              font-size: 15px;
+              font-weight: 100;
+              margin-top: 5px; }
+          .app_weather-overview-summary-demo .temperature .temperature-info {
+            width: 100%;
+            height: 60%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column; }
+            .app_weather-overview-summary-demo .temperature .temperature-info .cound {
+              width: 100%;
+              height: 40%;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: start;
+                  -ms-flex-pack: start;
+                      justify-content: flex-start;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              overflow: hidden;
+              margin-top: 10px;
+              margin-bottom: 15px; }
+              .app_weather-overview-summary-demo .temperature .temperature-info .cound img {
+                width: 50px;
+                height: 40px;
+                -o-object-fit: cover;
+                   object-fit: cover;
+                border-radius: 100px;
+                margin-left: 25px;
+                -webkit-border-radius: 100px;
+                -moz-border-radius: 100px;
+                -ms-border-radius: 100px;
+                -o-border-radius: 100px; }
+              .app_weather-overview-summary-demo .temperature .temperature-info .cound span {
+                font-weight: 100;
+                font-size: 15px; }
+            .app_weather-overview-summary-demo .temperature .temperature-info .rain {
+              width: 100%;
+              height: 40%;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              overflow: hidden;
+              -webkit-box-pack: start;
+                  -ms-flex-pack: start;
+                      justify-content: flex-start;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              margin-left: 25px;
+              margin-bottom: 10px; }
+              .app_weather-overview-summary-demo .temperature .temperature-info .rain img {
+                width: 50px;
+                height: 40px;
+                -o-object-fit: cover;
+                   object-fit: cover;
+                border-radius: 100px;
+                -webkit-border-radius: 100px;
+                -moz-border-radius: 100px;
+                -ms-border-radius: 100px;
+                -o-border-radius: 100px; }
+              .app_weather-overview-summary-demo .temperature .temperature-info .rain span {
+                font-weight: 100;
+                font-size: 15px; }
+            .app_weather-overview-summary-demo .temperature .temperature-info .tem {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              height: 20%;
+              width: 70%;
+              margin: 0 auto;
+              height: 100%;
+              background-image: url(../image/gif/52edf6e9dc6521d2fd27b72e57212f29.gif);
+              background-repeat: no-repeat;
+              background-size: cover;
+              border-radius: 10px;
+              animation: trans 19s ease-in alternate infinite;
+              -o-object-fit: cover;
+                 object-fit: cover;
+              -webkit-border-radius: 10px;
+              -moz-border-radius: 10px;
+              -ms-border-radius: 10px;
+              -o-border-radius: 10px;
+              -webkit-animation: trans 19s ease-in alternate infinite;
+              transition: all 20s ease-in;
+              -webkit-transition: all 20s ease-in;
+              -moz-transition: all 20s ease-in;
+              -ms-transition: all 20s ease-in;
+              -o-transition: all 20s ease-in;
+              -webkit-transform: translateY(20px);
+                      transform: translateY(20px);
+              padding-top: 5px; }
+              .app_weather-overview-summary-demo .temperature .temperature-info .tem span {
+                font-weight: 900;
+                font-size: 20px;
+                color: white;
+                letter-spacing: 3px; }
+  @-webkit-keyframes trans {
+    0% {
+      background-position: unset; }
+    100% {
+      background-position: center; } }
+  @keyframes trans {
+    0% {
+      background-position: unset; }
+    100% {
+      background-position: center; } } }
 /* – Dùng để tạo biến chung, toàn cục cho trang web */
 * {
   text-decoration: none;
