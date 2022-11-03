@@ -9,7 +9,7 @@ body {
 
 .app_weather {
   width: 80%;
-  height: 75%;
+  height: 80vh;
   border-radius: 45px;
   -webkit-border-radius: 45px;
   -moz-border-radius: 45px;
@@ -90,7 +90,7 @@ body {
             justify-content: center;
             align-items: center;
             flex-direction: column;
-
+            margin-bottom: 20px;
             .box-value {
               display: flex;
               justify-content: center;
@@ -161,10 +161,11 @@ body {
               justify-content: center;
               align-items: center;
               width: 100%;
-              height: 100%;
+              height: 30%;
               background-image: url(../image/gif/52edf6e9dc6521d2fd27b72e57212f29.gif);
               background-repeat: no-repeat;
               background-size: cover;
+              margin-top: 20px;
               span {
                 font-weight: 900;
                 font-size: 25px;
